@@ -1,0 +1,7 @@
+
+State Machine - |bin_bcd_ser|state_s
+Name state_s.ST_Done state_s.ST_SHIFT_LEFT state_s.ST_UPDATE_REG state_s.ST_IDLE 
+state_s.ST_IDLE 0 0 0 0 
+state_s.ST_UPDATE_REG 0 0 1 1 
+state_s.ST_SHIFT_LEFT 0 1 0 1 
+state_s.ST_Done 1 0 0 1 
